@@ -1,0 +1,6 @@
+src/gdebi/deb_package.rs
+src/gdebi/gdebi_cli.rs
+src/gdebi/gdebi_common.rs
+src/gdebi/gdebi_gtk.rs
+src/installer.rs
+src/main.rs

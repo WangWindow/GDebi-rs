@@ -1,0 +1,11 @@
+[package]
+name = "gdebi-rs"
+version = "0.1.0"
+edition = "2024"
+description = "A GTK4 Debian package installer"
+license = "GPL-2.0-or-later"
+
+[dependencies]
+gtk = { package = "gtk4", version = "0.7" }
+gettext-rs = { version = "0.7", features = ["gettext-system"] }
+libc = "0.2"

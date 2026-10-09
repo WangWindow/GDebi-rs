@@ -1,0 +1,146 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gdebi-rs\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Usage: gdebi-rs --cli PACKAGE.deb"
+msgstr "用法：gdebi-rs --cli PACKAGE.deb"
+
+msgid "Open package"
+msgstr "打开软件包"
+
+msgid "Install package"
+msgstr "安装软件包"
+
+msgid "Drop a .deb file here"
+msgstr "将 .deb 文件拖到这里"
+
+msgid "Installation log"
+msgstr "安装日志"
+
+msgid "Dependencies"
+msgstr "依赖项"
+
+msgid "Unable to open package"
+msgstr "无法打开软件包"
+
+msgid "This location is not a local file."
+msgstr "该位置不是本地文件。"
+
+msgid "Authenticating…"
+msgstr "正在验证身份…"
+
+msgid "Open Debian package"
+msgstr "打开 Debian 软件包"
+
+msgid "Open"
+msgstr "打开"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "Debian packages (*.deb)"
+msgstr "Debian 软件包 (*.deb)"
+
+msgid "Requesting administrator authorization…"
+msgstr "正在请求管理员权限…"
+
+msgid "The installation process exited unexpectedly"
+msgstr "安装进程意外退出"
+
+msgid "The package was installed successfully."
+msgstr "软件包已成功安装。"
+
+msgid "Reinstall package"
+msgstr "重新安装"
+
+msgid "Installation failed"
+msgstr "安装失败"
+
+msgid "Retry installation"
+msgstr "重试安装"
+
+msgid "Package installation failed"
+msgstr "软件包安装失败"
+
+msgid "Unknown"
+msgstr "未知"
+
+msgid "File does not exist"
+msgstr "文件不存在"
+
+msgid "Not a regular file"
+msgstr "不是普通文件"
+
+msgid "Unable to read file path"
+msgstr "无法读取文件路径"
+
+msgid "This is not a valid Debian binary package (Package or Version is missing)"
+msgstr "文件不是有效的 Debian 二进制软件包（缺少 Package 或 Version）"
+
+msgid "No description is available."
+msgstr "没有可用的描述。"
+
+msgid "Unable to run dpkg-deb"
+msgstr "无法运行 dpkg-deb"
+
+msgid "dpkg-deb output is not valid UTF-8"
+msgstr "dpkg-deb 输出不是有效的 UTF-8"
+
+msgid "dpkg-deb failed with exit status"
+msgstr "dpkg-deb 失败，退出码"
+
+msgid "dpkg-deb could not open the package"
+msgstr "dpkg-deb 无法打开软件包"
+
+msgid "Depends"
+msgstr "依赖"
+
+msgid "Pre-Depends"
+msgstr "预依赖"
+
+msgid "Recommends"
+msgstr "推荐"
+
+msgid "Suggests"
+msgstr "建议"
+
+msgid "Conflicts"
+msgstr "冲突"
+
+msgid "Replaces"
+msgstr "替代"
+
+msgid "All declared dependencies are satisfied, or this package has no dependencies."
+msgstr "所有声明的依赖关系均已满足，或该软件包没有依赖。"
+
+msgid "Installing…"
+msgstr "正在安装…"
+
+msgid "Unable to start the polkit helper pkexec"
+msgstr "无法启动 polkit 提权程序 pkexec"
+
+msgid "Unable to start apt-get"
+msgstr "无法启动 apt-get"
+
+msgid "Unable to read apt-get standard output"
+msgstr "无法读取 apt-get 标准输出"
+
+msgid "Unable to read apt-get error output"
+msgstr "无法读取 apt-get 错误输出"
+
+msgid "Waiting for apt-get failed"
+msgstr "等待安装程序结束失败"
+
+msgid "apt-get installation failed with exit status"
+msgstr "apt-get 安装失败，退出码"
+
+msgid "apt-get was terminated by a signal; installation did not finish"
+msgstr "apt-get 被信号终止，安装未完成"
+
+msgid "Failed to read installation output"
+msgstr "读取安装输出失败"
