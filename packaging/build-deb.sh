@@ -36,7 +36,8 @@ Section: admin
 Priority: optional
 Architecture: $ARCH
 Maintainer: WangWindow <1598593280@qq.com>
-Depends: apt, dpkg, pkexec | policykit-1, libgtk-4-1 (>= 4.0) | libgtk-4-1t64 (>= 4.0)
+Depends: apt, dpkg, libgtk-4-1 (>= 4.0) | libgtk-4-1t64 (>= 4.0)
+Recommends: pkexec | policykit-1
 Description: GTK4 Debian package installer
  A lightweight GTK4 installer for local Debian packages.
 Homepage: https://github.com/WangWindow/GDebi-rs

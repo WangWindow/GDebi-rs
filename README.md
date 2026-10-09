@@ -7,7 +7,8 @@ Lightweight GTK4 Debian package installer for local `.deb` files.
 - Rust stable
 - GTK4 4.0+
 - gettext
-- Runtime: `dpkg-deb`, `apt-get`, `pkexec`
+- Runtime: `dpkg-deb`, `apt-get`
+- Recommended for graphical authorization: `pkexec` or `policykit-1`
 
 Debian/Ubuntu build dependencies:
 
