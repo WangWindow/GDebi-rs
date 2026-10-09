@@ -1,33 +1,18 @@
 # GDebi-rs
 
-Lightweight GTK4 Debian package installer for inspecting and installing local
-`.deb` packages.
-
-## Upstream
-
-The original GDebi source is used as a behavioral reference:
-
-<https://codegraph.jelmer.uk/gdebi/0.9.5.8/GDebi>
+Lightweight GTK4 Debian package installer for local `.deb` files.
 
 ## Dependencies
 
-Build dependencies:
-
-- Rust 1.70+
-- GTK 4.0+
+- Rust stable
+- GTK4 4.0+
 - gettext
+- Runtime: `dpkg-deb`, `apt-get`, `pkexec`
 
-Runtime dependencies:
-
-- `dpkg-deb`
-- `apt-get`
-- `pkexec`
-
-On Debian/Ubuntu:
+Debian/Ubuntu build dependencies:
 
 ```sh
-sudo apt install libcairo2-dev libgtk-4-dev gettext \
-    dpkg apt policykit-1
+sudo apt install libcairo2-dev libgtk-4-dev gettext dpkg-dev
 ```
 
 ## Build and run
@@ -37,22 +22,25 @@ cargo build --release
 ./target/release/gdebi-rs package.deb
 ```
 
-Command-line is also available:
+CLI mode:
 
 ```sh
 ./target/release/gdebi-rs --cli package.deb
 ```
 
-## Source layout
+## Release packages
 
-| Module | Purpose |
-| --- | --- |
-| `src/gdebi/deb_package.rs` | Debian package parsing |
-| `src/gdebi/gdebi_common.rs` | Shared package operations |
-| `src/gdebi/gdebi_gtk.rs` | GTK4 interface |
-| `src/gdebi/gdebi_cli.rs` | CLI frontend |
-| `src/installer.rs` | APT/polkit installation |
-| `src/i18n.rs`, `po/` | gettext translations |
+Pushing a `v*` tag starts GitHub Actions and publishes Debian packages for:
+
+- `amd64`
+- `armhf`
+- `arm64`
+
+## Reference
+
+The original GDebi source used for behavioral reference:
+
+<https://codegraph.jelmer.uk/gdebi/0.9.5.8/GDebi>
 
 ## License
 
